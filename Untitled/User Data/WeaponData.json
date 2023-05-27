@@ -1,0 +1,1073 @@
+{
+    "1": {
+      "Rarity": 5,
+      "Name": "Summit Shaper",
+      "WeaponType": "Sword",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "2": {
+      "Rarity": 5,
+      "Name": "Mistsplitter Reforged",
+      "WeaponType": "Sword",
+      "Base ATK ": 48,
+      "Ascended ATK ": 674,
+      "Stats": "CRIT DMG",
+      "Limited": "Yes"
+    },
+    "3": {
+      "Rarity": 5,
+      "Name": "Skyward Blade",
+      "WeaponType": "Sword",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "4": {
+      "Rarity": 5,
+      "Name": "Freedom-Sworn",
+      "WeaponType": "Sword",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "Elemental Mastery",
+      "Limited": "Yes"
+    },
+    "5": {
+      "Rarity": 5,
+      "Name": "Haran Geppaku Futsu",
+      "WeaponType": "Sword",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "CRIT Rate",
+      "Limited": "Yes"
+    },
+    "6": {
+      "Rarity": 5,
+      "Name": "Primordial Jade Cutter",
+      "WeaponType": "Sword",
+      "Base ATK ": 44,
+      "Ascended ATK ": 542,
+      "Stats": "CRIT Rate",
+      "Limited": "Yes"
+    },
+    "7": {
+      "Rarity": 5,
+      "Name": "Aquila Favonia",
+      "WeaponType": "Sword",
+      "Base ATK ": 48,
+      "Ascended ATK ": 674,
+      "Stats": "Physical DMG Bonus",
+      "Limited": "No"
+    },
+    "8": {
+      "Rarity": 5,
+      "Name": "Wolf's Gravestone",
+      "WeaponType": "Claymore",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "9": {
+      "Rarity": 5,
+      "Name": "Redhorn Stonethresher",
+      "WeaponType": "Claymore",
+      "Base ATK ": 44,
+      "Ascended ATK ": 542,
+      "Stats": "CRIT DMG",
+      "Limited": "Yes"
+    },
+    "10": {
+      "Rarity": 5,
+      "Name": "The Unforged",
+      "WeaponType": "Claymore",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "11": {
+      "Rarity": 5,
+      "Name": "Song of Broken Pines",
+      "WeaponType": "Claymore",
+      "Base ATK ": 49,
+      "Ascended ATK ": 741,
+      "Stats": "Physical DMG Bonus",
+      "Limited": "Yes"
+    },
+    "12": {
+      "Rarity": 5,
+      "Name": "Skyward Pride",
+      "WeaponType": "Claymore",
+      "Base ATK ": 48,
+      "Ascended ATK ": 674,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "13": {
+      "Rarity": 5,
+      "Name": "Engulfing Lightning",
+      "WeaponType": "Polearm",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "Energy Recharge",
+      "Limited": "Yes"
+    },
+    "14": {
+      "Rarity": 5,
+      "Name": "Skyward Spine",
+      "WeaponType": "Polearm",
+      "Base ATK ": 48,
+      "Ascended ATK ": 674,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "15": {
+      "Rarity": 5,
+      "Name": "Primordial Jade Winged-Spear",
+      "WeaponType": "Polearm",
+      "Base ATK ": 48,
+      "Ascended ATK ": 674,
+      "Stats": "CRIT Rate",
+      "Limited": "No"
+    },
+    "16": {
+      "Rarity": 5,
+      "Name": "Calamity Queller",
+      "WeaponType": "Polearm",
+      "Base ATK ": 49,
+      "Ascended ATK ": 741,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "17": {
+      "Rarity": 5,
+      "Name": "Staff of Homa",
+      "WeaponType": "Polearm",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "CRIT DMG",
+      "Limited": "Yes"
+    },
+    "18": {
+      "Rarity": 5,
+      "Name": "Vortex Vanquisher",
+      "WeaponType": "Polearm",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "19": {
+      "Rarity": 5,
+      "Name": "Memory of Dust",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "20": {
+      "Rarity": 5,
+      "Name": "Everlasting Moonglow",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "HP",
+      "Limited": "Yes"
+    },
+    "21": {
+      "Rarity": 5,
+      "Name": "Skyward Atlas",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 48,
+      "Ascended ATK ": 674,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "22": {
+      "Rarity": 5,
+      "Name": "Kagura's Verity",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "CRIT DMG",
+      "Limited": "Yes"
+    },
+    "23": {
+      "Rarity": 5,
+      "Name": "Lost Prayer to the Sacred Winds",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "CRIT Rate",
+      "Limited": "No"
+    },
+    "24": {
+      "Rarity": 5,
+      "Name": "Polar Star",
+      "WeaponType": "Bow",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "CRIT Rate",
+      "Limited": "Yes"
+    },
+    "25": {
+      "Rarity": 5,
+      "Name": "Thundering Pulse",
+      "WeaponType": "Bow",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "CRIT DMG",
+      "Limited": "Yes"
+    },
+    "26": {
+      "Rarity": 5,
+      "Name": "Elegy for the End",
+      "WeaponType": "Bow",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "Energy Recharge",
+      "Limited": "Yes"
+    },
+    "27": {
+      "Rarity": 5,
+      "Name": "Skyward Harp",
+      "WeaponType": "Bow",
+      "Base ATK ": 48,
+      "Ascended ATK ": 674,
+      "Stats": "CRIT Rate",
+      "Limited": "No"
+    },
+    "28": {
+      "Rarity": 5,
+      "Name": "Amos' Bow",
+      "WeaponType": "Bow",
+      "Base ATK ": 46,
+      "Ascended ATK ": 608,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "29": {
+      "Rarity": 4,
+      "Name": "Amenoma Kageuchi",
+      "WeaponType": "Sword",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "30": {
+      "Rarity": 4,
+      "Name": "The Flute",
+      "WeaponType": "Sword",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "31": {
+      "Rarity": 4,
+      "Name": "The Black Sword",
+      "WeaponType": "Sword",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "32": {
+      "Rarity": 4,
+      "Name": "The Alley Flash",
+      "WeaponType": "Sword",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "CRIT Rate",
+      "Limited": "No"
+    },
+    "33": {
+      "Rarity": 4,
+      "Name": "Sword of Descension",
+      "WeaponType": "Sword",
+      "Base ATK ": 39,
+      "Ascended ATK ": 440,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "34": {
+      "Rarity": 4,
+      "Name": "Sacrificial Sword",
+      "WeaponType": "Sword",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "35": {
+      "Rarity": 4,
+      "Name": "Royal Longsword",
+      "WeaponType": "Sword",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "36": {
+      "Rarity": 4,
+      "Name": "Prototype Rancour",
+      "WeaponType": "Sword",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "Physical DMG Bonus",
+      "Limited": "Yes"
+    },
+    "37": {
+      "Rarity": 4,
+      "Name": "Lion's Roar",
+      "WeaponType": "Sword",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "38": {
+      "Rarity": 4,
+      "Name": "Iron Sting",
+      "WeaponType": "Sword",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "Elemental Mastery",
+      "Limited": "Yes"
+    },
+    "39": {
+      "Rarity": 4,
+      "Name": "Festering Desire",
+      "WeaponType": "Sword",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "Energy Recharge",
+      "Limited": "Yes"
+    },
+    "40": {
+      "Rarity": 4,
+      "Name": "Favonius Sword",
+      "WeaponType": "Sword",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "41": {
+      "Rarity": 4,
+      "Name": "Cinnabar Spindle",
+      "WeaponType": "Sword",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "DEF",
+      "Limited": "Yes"
+    },
+    "42": {
+      "Rarity": 4,
+      "Name": "Blackcliff Longsword",
+      "WeaponType": "Sword",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "CRIT DMG",
+      "Limited": "Yes"
+    },
+    "43": {
+      "Rarity": 4,
+      "Name": "Whiteblind",
+      "WeaponType": "Claymore",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "DEF",
+      "Limited": "Yes"
+    },
+    "44": {
+      "Rarity": 4,
+      "Name": "The Bell",
+      "WeaponType": "Claymore",
+      "Base ATK ": 43,
+      "Ascended ATK ": 42,
+      "Stats": "HP",
+      "Limited": "No"
+    },
+    "45": {
+      "Rarity": 4,
+      "Name": "Snow-Tombed Starsilver",
+      "WeaponType": "Claymore",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "Physical DMG Bonus",
+      "Limited": "Yes"
+    },
+    "46": {
+      "Rarity": 4,
+      "Name": "Serpent Spine",
+      "WeaponType": "Claymore",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "CRIT Rate",
+      "Limited": "Yes"
+    },
+    "47": {
+      "Rarity": 4,
+      "Name": "Sacrificial Greatsword",
+      "WeaponType": "Claymore",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "48": {
+      "Rarity": 4,
+      "Name": "Blackcliff Slasher",
+      "WeaponType": "Claymore",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "CRIT DMG",
+      "Limited": "Yes"
+    },
+    "49": {
+      "Rarity": 4,
+      "Name": "Akuoumaru",
+      "WeaponType": "Claymore",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "50": {
+      "Rarity": 4,
+      "Name": "Rainslasher",
+      "WeaponType": "Claymore",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "Elemental Mastery",
+      "Limited": "No"
+    },
+    "51": {
+      "Rarity": 4,
+      "Name": "Prototype Archaic",
+      "WeaponType": "Claymore",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "52": {
+      "Rarity": 4,
+      "Name": "Luxurious Sea-Lord",
+      "WeaponType": "Claymore",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "53": {
+      "Rarity": 4,
+      "Name": "Lithic Blade",
+      "WeaponType": "Claymore",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "54": {
+      "Rarity": 4,
+      "Name": "Katsuragikiri Nagamasa",
+      "WeaponType": "Claymore",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "55": {
+      "Rarity": 4,
+      "Name": "Favonius Greatsword",
+      "WeaponType": "Claymore",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "56": {
+      "Rarity": 4,
+      "Name": "Royal Greatsword",
+      "WeaponType": "Claymore",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "57": {
+      "Rarity": 4,
+      "Name": "Prototype Starglitter",
+      "WeaponType": "Polearm",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "58": {
+      "Rarity": 4,
+      "Name": "Lithic Blade",
+      "WeaponType": "Polearm",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "59": {
+      "Rarity": 4,
+      "Name": "Kitain Cross Spear",
+      "WeaponType": "Polearm",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "Elemental Mastery",
+      "Limited": "Yes"
+    },
+    "60": {
+      "Rarity": 4,
+      "Name": "The Catch",
+      "WeaponType": "Polearm",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "Energy Recharge",
+      "Limited": "Yes"
+    },
+    "61": {
+      "Rarity": 4,
+      "Name": "Favonius Lance",
+      "WeaponType": "Polearm",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "62": {
+      "Rarity": 4,
+      "Name": "Dragonspine Spear",
+      "WeaponType": "Polearm",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "Physical DMG Bonus",
+      "Limited": "Yes"
+    },
+    "63": {
+      "Rarity": 4,
+      "Name": "Dragon's Bane",
+      "WeaponType": "Polearm",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "Elemental Mastery",
+      "Limited": "No"
+    },
+    "64": {
+      "Rarity": 4,
+      "Name": "Deathmatch",
+      "WeaponType": "Polearm",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "CRIT Rate",
+      "Limited": "Yes"
+    },
+    "65": {
+      "Rarity": 4,
+      "Name": "Crescent Pike",
+      "WeaponType": "Polearm",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "Physical DMG Bonus",
+      "Limited": "Yes"
+    },
+    "66": {
+      "Rarity": 4,
+      "Name": "Blackcliff Pole",
+      "WeaponType": "Polearm",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "CRIT DMG",
+      "Limited": "Yes"
+    },
+    "67": {
+      "Rarity": 4,
+      "Name": "Wavebreaker's Fin",
+      "WeaponType": "Polearm",
+      "Base ATK ": 45,
+      "Ascended ATK ": 620,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "68": {
+      "Rarity": 4,
+      "Name": "Royal Spear",
+      "WeaponType": "Polearm",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "69": {
+      "Rarity": 4,
+      "Name": "Blackcliff Agate",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "CRIT DMG",
+      "Limited": "Yes"
+    },
+    "70": {
+      "Rarity": 4,
+      "Name": "The Widsith",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "CRIT DMG",
+      "Limited": "No"
+    },
+    "71": {
+      "Rarity": 4,
+      "Name": "Solar Pearl",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "CRIT Rate",
+      "Limited": "Yes"
+    },
+    "72": {
+      "Rarity": 4,
+      "Name": "Sacrificial Fragments",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "Elemental Mastery",
+      "Limited": "No"
+    },
+    "73": {
+      "Rarity": 4,
+      "Name": "Royal Grimoire",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "74": {
+      "Rarity": 4,
+      "Name": "Prototype Amber",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "HP",
+      "Limited": "No"
+    },
+    "75": {
+      "Rarity": 4,
+      "Name": "Oathsworn Eye",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "76": {
+      "Rarity": 4,
+      "Name": "Wine and Song",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "77": {
+      "Rarity": 4,
+      "Name": "Mappa Mare",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "Elemental Mastery",
+      "Limited": "No"
+    },
+    "78": {
+      "Rarity": 4,
+      "Name": "Hakushin Ring",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "Energy Recharge",
+      "Limited": "Yes"
+    },
+    "79": {
+      "Rarity": 4,
+      "Name": "Frostbearer",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "80": {
+      "Rarity": 4,
+      "Name": "Favonius Codex",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "81": {
+      "Rarity": 4,
+      "Name": "Eye of Perception",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "82": {
+      "Rarity": 4,
+      "Name": "Dodoco Tales",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "83": {
+      "Rarity": 4,
+      "Name": "Alley Hunter",
+      "WeaponType": "Bow",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "84": {
+      "Rarity": 4,
+      "Name": "The Viridescent Hunt",
+      "WeaponType": "Bow",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "CRIT Rate",
+      "Limited": "Yes"
+    },
+    "85": {
+      "Rarity": 4,
+      "Name": "The Stringless",
+      "WeaponType": "Bow",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "Elemental Mastery",
+      "Limited": "No"
+    },
+    "86": {
+      "Rarity": 4,
+      "Name": "Sacrificial Bow",
+      "WeaponType": "Bow",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "87": {
+      "Rarity": 4,
+      "Name": "Rust",
+      "WeaponType": "Bow",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "88": {
+      "Rarity": 4,
+      "Name": "Royal Bow",
+      "WeaponType": "Bow",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "89": {
+      "Rarity": 4,
+      "Name": "Prototype Crescent",
+      "WeaponType": "Bow",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "90": {
+      "Rarity": 4,
+      "Name": "Predator",
+      "WeaponType": "Bow",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "91": {
+      "Rarity": 4,
+      "Name": "Mouun's Moon",
+      "WeaponType": "Bow",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "92": {
+      "Rarity": 4,
+      "Name": "Mitternachts Waltz",
+      "WeaponType": "Bow",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "Physical DMG Bonus",
+      "Limited": "Yes"
+    },
+    "93": {
+      "Rarity": 4,
+      "Name": "Hamayumi",
+      "WeaponType": "Bow",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "ATK",
+      "Limited": "Yes"
+    },
+    "94": {
+      "Rarity": 4,
+      "Name": "Favonius Warbow",
+      "WeaponType": "Bow",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "Energy Recharge",
+      "Limited": "Yes"
+    },
+    "95": {
+      "Rarity": 4,
+      "Name": "Compound Bow",
+      "WeaponType": "Bow",
+      "Base ATK ": 41,
+      "Ascended ATK ": 454,
+      "Stats": "Physical DMG Bonus",
+      "Limited": "Yes"
+    },
+    "96": {
+      "Rarity": 4,
+      "Name": "Blackcliff Warbow",
+      "WeaponType": "Bow",
+      "Base ATK ": 44,
+      "Ascended ATK ": 565,
+      "Stats": "CRIT DMG",
+      "Limited": "No"
+    },
+    "97": {
+      "Rarity": 4,
+      "Name": "Windblume Ode",
+      "WeaponType": "Bow",
+      "Base ATK ": 42,
+      "Ascended ATK ": 510,
+      "Stats": "Elemental Mastery",
+      "Limited": "Yes"
+    },
+    "98": {
+      "Rarity": 3,
+      "Name": "Harbinger of Dawn",
+      "WeaponType": "Sword",
+      "Base ATK ": 39,
+      "Ascended ATK ": 401,
+      "Stats": "CRIT DMG",
+      "Limited": "No"
+    },
+    "99": {
+      "Rarity": 3,
+      "Name": "Fillet Blade",
+      "WeaponType": "Sword",
+      "Base ATK ": 39,
+      "Ascended ATK ": 401,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "100": {
+      "Rarity": 3,
+      "Name": "Skyrider Sword",
+      "WeaponType": "Sword",
+      "Base ATK ": 38,
+      "Ascended ATK ": 354,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "101": {
+      "Rarity": 3,
+      "Name": "Dark Iron Sword",
+      "WeaponType": "Sword",
+      "Base ATK ": 39,
+      "Ascended ATK ": 401,
+      "Stats": "Elemental Mastery",
+      "Limited": "Yes"
+    },
+    "102": {
+      "Rarity": 3,
+      "Name": "Skyrider Greatsword",
+      "WeaponType": "Claymore",
+      "Base ATK ": 39,
+      "Ascended ATK ": 401,
+      "Stats": "Physical DMG Bonus",
+      "Limited": "No"
+    },
+    "103": {
+      "Rarity": 3,
+      "Name": "Ferrous Shadow",
+      "WeaponType": "Claymore",
+      "Base ATK ": 39,
+      "Ascended ATK ": 401,
+      "Stats": "HP",
+      "Limited": "No"
+    },
+    "104": {
+      "Rarity": 3,
+      "Name": "Debate Club",
+      "WeaponType": "Claymore",
+      "Base ATK ": 39,
+      "Ascended ATK ": 401,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "105": {
+      "Rarity": 3,
+      "Name": "White Iron Greatsword",
+      "WeaponType": "Claymore",
+      "Base ATK ": 39,
+      "Ascended ATK ": 401,
+      "Stats": "DEF",
+      "Limited": "No"
+    },
+    "106": {
+      "Rarity": 3,
+      "Name": "Bloodtainted Greatsword",
+      "WeaponType": "Claymore",
+      "Base ATK ": 38,
+      "Ascended ATK ": 354,
+      "Stats": "Elemental Mastery",
+      "Limited": "No"
+    },
+    "107": {
+      "Rarity": 3,
+      "Name": "Halberd",
+      "WeaponType": "Polearm",
+      "Base ATK ": 40,
+      "Ascended ATK ": 448,
+      "Stats": "ATK",
+      "Limited": "No"
+    },
+    "108": {
+      "Rarity": 3,
+      "Name": "Black Tassel",
+      "WeaponType": "Polearm",
+      "Base ATK ": 38,
+      "Ascended ATK ": 401,
+      "Stats": "HP",
+      "Limited": "No"
+    },
+    "109": {
+      "Rarity": 3,
+      "Name": "White Tassel",
+      "WeaponType": "Polearm",
+      "Base ATK ": 39,
+      "Ascended ATK ": 401,
+      "Stats": "CRIT Rate",
+      "Limited": "No"
+    },
+    "110": {
+      "Rarity": 3,
+      "Name": "Magic Guide",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 38,
+      "Ascended ATK ": 354,
+      "Stats": "Elemental Mastery",
+      "Limited": "No"
+    },
+    "111": {
+      "Rarity": 3,
+      "Name": "Otherworldly Story",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 39,
+      "Ascended ATK ": 401,
+      "Stats": "Energy Recharge",
+      "Limited": "No"
+    },
+    "112": {
+      "Rarity": 3,
+      "Name": "Emerald Orb",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 40,
+      "Ascended ATK ": 448,
+      "Stats": "Elemental Mastery",
+      "Limited": "No"
+    },
+    "113": {
+      "Rarity": 3,
+      "Name": "Thrilling Tales of Dragon Slayers",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 39,
+      "Ascended ATK ": 401,
+      "Stats": "HP",
+      "Limited": "No"
+    },
+    "114": {
+      "Rarity": 3,
+      "Name": "Twin Nephrite",
+      "WeaponType": "Catalyst",
+      "Base ATK ": 40,
+      "Ascended ATK ": 448,
+      "Stats": "CRIT Rate",
+      "Limited": "No"
+    },
+    "115": {
+      "Rarity": 3,
+      "Name": "Raven Bow",
+      "WeaponType": "Bow",
+      "Base ATK ": 40,
+      "Ascended ATK ": 448,
+      "Stats": "Elemental Mastery",
+      "Limited": "No"
+    },
+    "116": {
+      "Rarity": 3,
+      "Name": "Recurve Bow",
+      "WeaponType": "Bow",
+      "Base ATK ": 38,
+      "Ascended ATK ": 354,
+      "Stats": "HP",
+      "Limited": "No"
+    },
+    "117": {
+      "Rarity": 3,
+      "Name": "Messenger",
+      "WeaponType": "Bow",
+      "Base ATK ": 40,
+      "Ascended ATK ": 448,
+      "Stats": "CRIT DMG",
+      "Limited": "No"
+    },
+    "118": {
+      "Rarity": 3,
+      "Name": "Sharpshooter's Oath",
+      "WeaponType": "Bow",
+      "Base ATK ": 39,
+      "Ascended ATK ": 401,
+      "Stats": "CRIT DMG",
+      "Limited": "No"
+    },
+    "119": {
+      "Rarity": 3,
+      "Name": "Slingshot",
+      "WeaponType": "Bow",
+      "Base ATK ": 38,
+      "Ascended ATK ": 354,
+      "Stats": "CRIT Rate",
+      "Limited": "No"
+    }
+}

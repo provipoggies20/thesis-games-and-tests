@@ -1,0 +1,146 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Resources/HUD/closing-button.png" type="Texture" id=1]
+[ext_resource path="res://Resources/Fonts/genshinfont.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Resources/HUD/sad_paimon.png" type="Texture" id=3]
+[ext_resource path="res://Scripts/Details.gd" type="Script" id=4]
+[ext_resource path="res://Resources/UI/FPS.tscn" type="PackedScene" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 25
+font_data = ExtResource( 2 )
+
+[node name="Details" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+margin_right = 1280.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 1280, 100 )
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer"]
+margin_right = 1280.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 1280, 0 )
+color = Color( 0, 0, 0, 1 )
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/HBoxContainer/ColorRect"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 525, 100 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/ColorRect"]
+margin_left = 525.0
+margin_top = 30.0
+margin_right = 792.0
+margin_bottom = 78.0
+custom_fonts/font = SubResource( 1 )
+text = "Details"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="close" type="Button" parent="VBoxContainer/HBoxContainer/ColorRect"]
+margin_left = 1180.0
+margin_right = 1280.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 100, 100 )
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 1 )
+flat = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 104.0
+margin_right = 1280.0
+margin_bottom = 720.0
+size_flags_vertical = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/HBoxContainer2"]
+margin_right = 136.0
+margin_bottom = 616.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="sadpaimon" type="TextureRect" parent="VBoxContainer/HBoxContainer2"]
+visible = false
+margin_left = 277.0
+margin_right = 1003.0
+margin_bottom = 616.0
+texture = ExtResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer/HBoxContainer2"]
+margin_left = 140.0
+margin_right = 1140.0
+margin_bottom = 616.0
+rect_min_size = Vector2( 1000, 0 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "Event Wish \"Epitome\" is now available. During this event wish, two 5-star weapon [color=#f9e03f]Mistsplitter Reforged (Sword)[/color] and [color=#f9e03f]The Unforged[/color] as well as the 4-star weapons [color=#af47f9]Favonius Codex (Catalyst)[/color], [color=#af47f9]Favonius Lance (Polearm)[/color], [color=#af47f9]Favonius Sword (Sword)[/color], [color=#af47f9]The Bell (Claymore))[/color]
+
+5-star Items
+There is a probability of [color=#f42020] 0.07%[/color] of getting a five at below pity; Soft Pity triggers at 75 wishes and above, additionally it resets when you get a 5-star; also boosts probability by [color=#f42020] 0.07%[/color] with a total of [color=#f42020] 0.14%[/color]. A [color=#f42020] 50%[/color] of getting the featured 5-star [color=#f9e03f]Mistsplitter Reforged (Sword)[/color] or [color=#f9e03f]The Unforged[/color]. A total of 90 wishes triggers hard pity which will guarantee you a 5-star whether it is featured or not.
+
+4-star Items
+Probability for a 4-star weapon is [color=#f42020] 0.14%[/color] not including soft pity; [color=#f42020] 0.21%[/color] chance during soft pity. Nonetheless, when you pull in x10 a 4-star weapon is guaranteed. A [color=#f42020] 25%[/color] of getting between the featured 4-star weapons
+
+At 90th pity, the counter will reset."
+text = "Event Wish \"Epitome\" is now available. During this event wish, two 5-star weapon Mistsplitter Reforged (Sword) and The Unforged as well as the 4-star weapons Favonius Codex (Catalyst), Favonius Lance (Polearm), Favonius Sword (Sword), The Bell (Claymore))
+
+5-star Items
+There is a probability of  0.07% of getting a five at below pity; Soft Pity triggers at 75 wishes and above, additionally it resets when you get a 5-star; also boosts probability by  0.07% with a total of  0.14%. A  50% of getting the featured 5-star Mistsplitter Reforged (Sword) or The Unforged. A total of 90 wishes triggers hard pity which will guarantee you a 5-star whether it is featured or not.
+
+4-star Items
+Probability for a 4-star weapon is  0.14% not including soft pity;  0.21% chance during soft pity. Nonetheless, when you pull in x10 a 4-star weapon is guaranteed. A  25% of getting between the featured 4-star weapons
+
+At 90th pity, the counter will reset."
+
+[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer/HBoxContainer2"]
+margin_left = 1144.0
+margin_right = 1280.0
+margin_bottom = 616.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="fps" parent="." instance=ExtResource( 5 )]
+
+[connection signal="mouse_entered" from="VBoxContainer/HBoxContainer/ColorRect/close" to="." method="_on_close_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ColorRect/close" to="." method="_on_close_pressed"]

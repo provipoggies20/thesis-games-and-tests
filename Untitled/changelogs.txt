@@ -1,0 +1,49 @@
+UNTITLED
+
+\\This game and its properties is for testing purposes only, no public distribution/redistribution is intended.
+In compliance with our Thesis named "A Comparative Study on Pseudo-Random and Uniform Distribution Random Number 
+Generator in Games.\\
+
+Changelogs:
+v1.0 
+- Main UI Designed 
+#################################################################################################################
+v1.1 - 4/29/22
+- Active Features:
+	"Options"; Video Options(w/ userSettings saving file)
+			1. Display
+			2. Vsync
+			3. Show FPS
+	"Quit";
+- Added Features:
+	Test; 
+- Added Background and Ambience per level
+######################################################################################################################
+v1.2 - 5/5/22
+- Disabled Features:
+	"Test"; Focused on Wish feature instead
+- Added Features:
+	"Wish"; Players can wish for certain type of weapons and collect all 119.
+		Disclaimer: All assets that has been used are owned by HoyoVerse 
+		including but not limited to: Art, Animation, Name, etc. 
+	"Options"; Audio Options
+			1. Master
+			2. Music
+			3. SFX
+			4. Ambient
+####################################################################################################################
+v1.3 - 5/7/22
+- Changed Features:
+	"Wish"; Converted to C++ language specifically using Pseudo Random and Uniform Random.
+######################################################################################################################
+v1.4 - 5/13/22
+- Added Features:
+	Pseudo 
+	Uniform
+##################################################################################################################
+Secrets:
+	Press "`" or quote to bring up the console which then you can type the following:
+		"primogems" - 1600 Primogems
+		"intertwined" - 1 Intertwined Fate
+		"acquaint" - 1 Acquaint Fate
+		"whale" - 32000 Primogems

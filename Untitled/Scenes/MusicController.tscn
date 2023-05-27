@@ -1,0 +1,47 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scripts/MusicController.gd" type="Script" id=1]
+[ext_resource path="res://Resources/Sounds/bg-menu.mp3" type="AudioStream" id=2]
+[ext_resource path="res://Resources/BG/3.mp3" type="AudioStream" id=3]
+[ext_resource path="res://Resources/BG/2.mp3" type="AudioStream" id=4]
+[ext_resource path="res://Resources/BG/1.mp3" type="AudioStream" id=5]
+[ext_resource path="res://Resources/BG/4.mp3" type="AudioStream" id=6]
+[ext_resource path="res://Resources/Sounds/bgnew.mp3" type="AudioStream" id=10]
+[ext_resource path="res://Resources/HUD/wishbgmusic.wav" type="AudioStream" id=11]
+
+[node name="MusicController" type="Node"]
+script = ExtResource( 1 )
+
+[node name="TitleMenu" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = -10.0
+bus = "Music"
+
+[node name="level1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -10.0
+bus = "Music"
+
+[node name="level2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -10.0
+bus = "Music"
+
+[node name="level3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -10.0
+bus = "Music"
+
+[node name="level4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -10.0
+bus = "Music"
+
+[node name="Titlestart" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 10 )
+volume_db = -10.0
+bus = "Music"
+
+[node name="Wish" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 11 )
+volume_db = -20.0

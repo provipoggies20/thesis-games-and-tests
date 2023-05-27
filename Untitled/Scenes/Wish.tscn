@@ -1,0 +1,721 @@
+[gd_scene load_steps=30 format=2]
+
+[ext_resource path="res://Resources/UI/FPS.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/Wish.gd" type="Script" id=2]
+[ext_resource path="res://Resources/HUD/background.png" type="Texture" id=3]
+[ext_resource path="res://Resources/HUD/wish-button.png" type="Texture" id=4]
+[ext_resource path="res://Resources/HUD/primogem.png" type="Texture" id=5]
+[ext_resource path="res://Resources/HUD/intertwined.png" type="Texture" id=6]
+[ext_resource path="res://Resources/HUD/closing-button.png" type="Texture" id=7]
+[ext_resource path="res://Resources/HUD/acquaint.png" type="Texture" id=8]
+[ext_resource path="res://Resources/UI/Console.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Resources/HUD/epitome-invocation-28.png" type="Texture" id=10]
+[ext_resource path="res://Resources/Fonts/genshinfont.ttf" type="DynamicFontData" id=11]
+[ext_resource path="res://Scripts/convert.gd" type="Script" id=12]
+
+[sub_resource type="DynamicFont" id=1]
+size = 60
+outline_size = 10
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 11 )
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.388235, 0.388235, 0.388235, 0.235294 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.388235, 0.388235, 0.388235, 0.235294 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="DynamicFont" id=2]
+size = 30
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 11 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 15
+font_data = ExtResource( 11 )
+
+[sub_resource type="Animation" id=11]
+resource_name = "slow appear"
+tracks/0/type = "value"
+tracks/0/path = NodePath("banner:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("banner:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 50, 0 ), Vector2( 140, 0 ) ]
+}
+
+[sub_resource type="DynamicFont" id=3]
+size = 20
+font_data = ExtResource( 11 )
+
+[sub_resource type="DynamicFont" id=12]
+size = 35
+font_data = ExtResource( 11 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 20
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 11 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.6, 0.6, 0.6, 0.235294 )
+
+[sub_resource type="DynamicFont" id=13]
+font_data = ExtResource( 11 )
+
+[sub_resource type="StyleBoxFlat" id=15]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+
+[sub_resource type="StyleBoxFlat" id=16]
+bg_color = Color( 0.352941, 0.352941, 0.352941, 1 )
+
+[sub_resource type="DynamicFont" id=14]
+font_data = ExtResource( 11 )
+
+[sub_resource type="DynamicFont" id=19]
+font_data = ExtResource( 11 )
+
+[sub_resource type="StyleBoxFlat" id=17]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+
+[sub_resource type="StyleBoxFlat" id=18]
+bg_color = Color( 0.352941, 0.352941, 0.352941, 1 )
+
+[node name="Wish" type="Node"]
+script = ExtResource( 2 )
+
+[node name="Control" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bg" type="TextureRect" parent="Control"]
+margin_right = 1920.0
+margin_bottom = 1080.0
+rect_scale = Vector2( 0.667, 0.666 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="Control"]
+margin_right = 1280.0
+margin_bottom = 720.0
+rect_min_size = Vector2( 1280, 720 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TopContainer" type="HBoxContainer" parent="Control/GridContainer"]
+margin_right = 1280.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 1280, 100 )
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/GridContainer/TopContainer"]
+margin_right = 15.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 15, 0 )
+size_flags_vertical = 3
+
+[node name="name" type="Label" parent="Control/GridContainer/TopContainer"]
+margin_left = 19.0
+margin_top = 13.0
+margin_right = 189.0
+margin_bottom = 87.0
+custom_fonts/font = SubResource( 1 )
+text = "WISH"
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control/GridContainer/TopContainer"]
+margin_left = 193.0
+margin_right = 361.0
+margin_bottom = 100.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer3" type="MarginContainer" parent="Control/GridContainer/TopContainer"]
+margin_left = 365.0
+margin_right = 533.0
+margin_bottom = 100.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="Button" parent="Control/GridContainer/TopContainer"]
+margin_left = 537.0
+margin_right = 687.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 150, 40 )
+rect_clip_content = true
+focus_mode = 0
+custom_styles/hover = SubResource( 9 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+flat = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="primogemholder" type="Label" parent="Control/GridContainer/TopContainer/TextureRect"]
+margin_left = 32.0
+margin_top = -4.0
+margin_right = 152.0
+margin_bottom = 46.0
+rect_min_size = Vector2( 120, 50 )
+custom_colors/font_color = Color( 0.996078, 0.996078, 0.996078, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "0"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/TopContainer/TextureRect"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 5 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer4" type="MarginContainer" parent="Control/GridContainer/TopContainer"]
+margin_left = 691.0
+margin_right = 691.0
+margin_bottom = 100.0
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="Button" parent="Control/GridContainer/TopContainer"]
+margin_left = 695.0
+margin_right = 845.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 150, 40 )
+focus_mode = 0
+custom_styles/hover = SubResource( 9 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="intertwinedholder" type="Label" parent="Control/GridContainer/TopContainer/TextureRect2"]
+margin_left = 32.0
+margin_top = -4.0
+margin_right = 152.0
+margin_bottom = 46.0
+rect_min_size = Vector2( 120, 50 )
+custom_colors/font_color = Color( 0.996078, 0.996078, 0.996078, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "0"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/TopContainer/TextureRect2"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 6 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer5" type="MarginContainer" parent="Control/GridContainer/TopContainer"]
+margin_left = 849.0
+margin_right = 849.0
+margin_bottom = 100.0
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect3" type="Button" parent="Control/GridContainer/TopContainer"]
+margin_left = 853.0
+margin_right = 1003.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 150, 40 )
+focus_mode = 0
+custom_colors/font_color = Color( 0.996078, 0.996078, 0.996078, 1 )
+custom_fonts/font = SubResource( 2 )
+enabled_focus_mode = 0
+flat = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="acquaintholder" type="Label" parent="Control/GridContainer/TopContainer/TextureRect3"]
+margin_left = 32.0
+margin_top = -4.0
+margin_right = 152.0
+margin_bottom = 46.0
+rect_min_size = Vector2( 120, 50 )
+custom_colors/font_color = Color( 0.996078, 0.996078, 0.996078, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "0"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/TopContainer/TextureRect3"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 8 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer6" type="MarginContainer" parent="Control/GridContainer/TopContainer"]
+margin_left = 1007.0
+margin_right = 1175.0
+margin_bottom = 100.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="close" type="Button" parent="Control/GridContainer/TopContainer"]
+margin_left = 1179.0
+margin_right = 1279.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 100, 100 )
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 7 )
+flat = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MidContainer" type="HBoxContainer" parent="Control/GridContainer"]
+margin_top = 104.0
+margin_right = 1280.0
+margin_bottom = 616.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/GridContainer/MidContainer"]
+margin_right = 136.0
+margin_bottom = 512.0
+size_flags_horizontal = 3
+
+[node name="banner" type="TextureRect" parent="Control/GridContainer/MidContainer"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 140.0
+margin_right = 1140.0
+margin_bottom = 512.0
+rect_min_size = Vector2( 1000, 500 )
+texture = ExtResource( 10 )
+expand = true
+
+[node name="Label" type="Label" parent="Control/GridContainer/MidContainer/banner"]
+margin_left = 37.0
+margin_top = 358.0
+margin_right = 339.0
+margin_bottom = 427.0
+custom_colors/font_color = Color( 0.984314, 0.584314, 0.160784, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "Click on Details for more Information on 
+about how the banner works"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Control/GridContainer/MidContainer"]
+autoplay = "slow appear"
+"anims/slow appear" = SubResource( 11 )
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control/GridContainer/MidContainer"]
+margin_left = 1144.0
+margin_right = 1280.0
+margin_bottom = 512.0
+size_flags_horizontal = 3
+
+[node name="BotContainer" type="HBoxContainer" parent="Control/GridContainer"]
+margin_top = 620.0
+margin_right = 1280.0
+margin_bottom = 720.0
+rect_min_size = Vector2( 1280, 100 )
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/GridContainer/BotContainer"]
+margin_right = 25.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 25, 0 )
+size_flags_vertical = 3
+
+[node name="inventory" type="Button" parent="Control/GridContainer/BotContainer"]
+margin_left = 29.0
+margin_right = 142.0
+margin_bottom = 100.0
+focus_mode = 0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+enabled_focus_mode = 0
+text = "Inventory"
+flat = true
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control/GridContainer/BotContainer"]
+margin_left = 146.0
+margin_right = 146.0
+margin_bottom = 100.0
+size_flags_vertical = 3
+
+[node name="history" type="Button" parent="Control/GridContainer/BotContainer"]
+margin_left = 150.0
+margin_right = 238.0
+margin_bottom = 100.0
+focus_mode = 0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+enabled_focus_mode = 0
+text = "History"
+flat = true
+
+[node name="MarginContainer6" type="MarginContainer" parent="Control/GridContainer/BotContainer"]
+margin_left = 242.0
+margin_right = 242.0
+margin_bottom = 100.0
+size_flags_vertical = 3
+
+[node name="archive" type="Button" parent="Control/GridContainer/BotContainer"]
+margin_left = 246.0
+margin_right = 336.0
+margin_bottom = 100.0
+focus_mode = 0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+enabled_focus_mode = 0
+text = "Archive"
+flat = true
+
+[node name="MarginContainer7" type="MarginContainer" parent="Control/GridContainer/BotContainer"]
+margin_left = 340.0
+margin_right = 340.0
+margin_bottom = 100.0
+size_flags_vertical = 3
+
+[node name="details" type="Button" parent="Control/GridContainer/BotContainer"]
+margin_left = 344.0
+margin_right = 428.0
+margin_bottom = 100.0
+focus_mode = 0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+enabled_focus_mode = 0
+text = "Details"
+flat = true
+
+[node name="MarginContainer8" type="MarginContainer" parent="Control/GridContainer/BotContainer"]
+margin_left = 432.0
+margin_right = 432.0
+margin_bottom = 100.0
+size_flags_vertical = 3
+
+[node name="disclaimer" type="Button" parent="Control/GridContainer/BotContainer"]
+margin_left = 436.0
+margin_right = 559.0
+margin_bottom = 100.0
+focus_mode = 0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+toggle_mode = true
+enabled_focus_mode = 0
+text = "Disclaimer"
+flat = true
+
+[node name="TextureRect" type="ColorRect" parent="Control/GridContainer/BotContainer/disclaimer"]
+visible = false
+margin_left = -367.0
+margin_top = -518.0
+margin_right = 753.0
+margin_bottom = -18.0
+rect_min_size = Vector2( 1120, 500 )
+mouse_filter = 2
+color = Color( 0, 0, 0, 0.588235 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Developer2" type="RichTextLabel" parent="Control/GridContainer/BotContainer/disclaimer/TextureRect"]
+margin_right = 1120.0
+margin_bottom = 500.0
+rect_min_size = Vector2( 1120, 500 )
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 12 )
+bbcode_enabled = true
+bbcode_text = "										 Disclaimer
+										
+		   All of the assets used in this feature are owned by    		HoyoVerse including but not limited to: Background,  	                    Animation, Weapons, and Fonts.
+										
+			No copyright intended. For testing purposes only."
+text = "										 Disclaimer
+										
+		   All of the assets used in this feature are owned by    		HoyoVerse including but not limited to: Background,  	                    Animation, Weapons, and Fonts.
+										
+			No copyright intended. For testing purposes only."
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer3" type="MarginContainer" parent="Control/GridContainer/BotContainer"]
+margin_left = 563.0
+margin_right = 814.0
+margin_bottom = 100.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="Button" parent="Control/GridContainer/BotContainer"]
+margin_left = 818.0
+margin_right = 1018.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 200, 0 )
+focus_mode = 0
+mouse_filter = 2
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+icon = ExtResource( 4 )
+flat = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pull1" type="Button" parent="Control/GridContainer/BotContainer/TextureRect2"]
+margin_left = 22.0
+margin_top = 30.0
+margin_right = 178.0
+margin_bottom = 70.0
+focus_mode = 0
+custom_colors/font_color = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 4 )
+enabled_focus_mode = 0
+text = "Pull x1"
+flat = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="currency" type="TextureRect" parent="Control/GridContainer/BotContainer/TextureRect2"]
+margin_left = 21.0
+margin_top = 35.0
+margin_right = 51.0
+margin_bottom = 65.0
+rect_min_size = Vector2( 30, 30 )
+texture = ExtResource( 6 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer4" type="MarginContainer" parent="Control/GridContainer/BotContainer"]
+margin_left = 1022.0
+margin_right = 1022.0
+margin_bottom = 100.0
+size_flags_vertical = 3
+
+[node name="TextureRect3" type="Button" parent="Control/GridContainer/BotContainer"]
+margin_left = 1026.0
+margin_right = 1226.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 200, 100 )
+focus_mode = 0
+mouse_filter = 2
+custom_styles/hover = SubResource( 7 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+icon = ExtResource( 4 )
+flat = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pull10" type="Button" parent="Control/GridContainer/BotContainer/TextureRect3"]
+margin_left = 22.0
+margin_top = 31.0
+margin_right = 179.0
+margin_bottom = 71.0
+focus_mode = 0
+custom_colors/font_color = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 4 )
+enabled_focus_mode = 0
+text = "Pull x10"
+flat = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="currency2" type="TextureRect" parent="Control/GridContainer/BotContainer/TextureRect3"]
+margin_left = 21.0
+margin_top = 35.0
+margin_right = 51.0
+margin_bottom = 65.0
+rect_min_size = Vector2( 30, 30 )
+texture = ExtResource( 6 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer5" type="MarginContainer" parent="Control/GridContainer/BotContainer"]
+margin_left = 1230.0
+margin_right = 1280.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 50, 0 )
+size_flags_vertical = 3
+
+[node name="fps" parent="Control" instance=ExtResource( 1 )]
+
+[node name="convert" type="Popup" parent="."]
+margin_left = 355.0
+margin_top = 152.0
+margin_right = 895.0
+margin_bottom = 412.0
+script = ExtResource( 12 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="convert"]
+anchor_left = 0.022
+anchor_top = 0.146
+anchor_right = 1.022
+anchor_bottom = 1.146
+margin_left = 0.119999
+margin_top = 0.0399971
+margin_right = 0.119934
+margin_bottom = 0.039978
+color = Color( 0.992157, 0.945098, 0.839216, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="convert"]
+margin_left = 112.0
+margin_top = 58.0
+margin_right = 464.0
+margin_bottom = 173.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 13 )
+text = "An additional Intertwined Fates are needed	.
+Purchase with 1600 primogems?"
+align = 1
+valign = 1
+
+[node name="cancel" type="Button" parent="convert"]
+margin_left = 85.0
+margin_top = 224.0
+margin_right = 219.0
+margin_bottom = 264.0
+custom_styles/hover = SubResource( 15 )
+custom_styles/normal = SubResource( 16 )
+
+[node name="Label" type="Label" parent="convert/cancel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = SubResource( 14 )
+text = "Cancel"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="convert/cancel"]
+visible = false
+margin_left = 117.0
+margin_top = -63.0
+margin_right = 264.0
+margin_bottom = -43.0
+custom_colors/font_color = Color( 0.964706, 0.00392157, 0.00392157, 1 )
+custom_fonts/font = SubResource( 19 )
+text = "Insufficient Funds"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="confirm" type="Button" parent="convert"]
+margin_left = 340.0
+margin_top = 225.0
+margin_right = 486.0
+margin_bottom = 265.0
+custom_styles/hover = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+
+[node name="Label" type="Label" parent="convert/confirm"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = SubResource( 14 )
+text = "Confirm"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Console" parent="." instance=ExtResource( 9 )]
+
+[connection signal="mouse_entered" from="Control/GridContainer/TopContainer/close" to="." method="_on_close_mouse_entered"]
+[connection signal="pressed" from="Control/GridContainer/TopContainer/close" to="." method="_on_close_pressed"]
+[connection signal="mouse_entered" from="Control/GridContainer/BotContainer/inventory" to="." method="_on_inventory_mouse_entered"]
+[connection signal="pressed" from="Control/GridContainer/BotContainer/inventory" to="." method="_on_inventory_pressed"]
+[connection signal="mouse_entered" from="Control/GridContainer/BotContainer/history" to="." method="_on_history_mouse_entered"]
+[connection signal="pressed" from="Control/GridContainer/BotContainer/history" to="." method="_on_history_pressed"]
+[connection signal="mouse_entered" from="Control/GridContainer/BotContainer/archive" to="." method="_on_archive_mouse_entered"]
+[connection signal="pressed" from="Control/GridContainer/BotContainer/archive" to="." method="_on_archive_pressed"]
+[connection signal="mouse_entered" from="Control/GridContainer/BotContainer/details" to="." method="_on_details_mouse_entered"]
+[connection signal="pressed" from="Control/GridContainer/BotContainer/details" to="." method="_on_details_pressed"]
+[connection signal="mouse_entered" from="Control/GridContainer/BotContainer/disclaimer" to="." method="_on_disclaimer_mouse_entered"]
+[connection signal="toggled" from="Control/GridContainer/BotContainer/disclaimer" to="." method="_on_disclaimer_toggled"]
+[connection signal="pressed" from="Control/GridContainer/BotContainer/TextureRect2/pull1" to="." method="_on_pull1_pressed"]
+[connection signal="pressed" from="Control/GridContainer/BotContainer/TextureRect3/pull10" to="." method="_on_pull10_pressed"]
+[connection signal="pressed" from="convert/cancel" to="." method="_on_cancel_pressed"]
+[connection signal="pressed" from="convert/confirm" to="." method="_on_confirm_pressed"]
