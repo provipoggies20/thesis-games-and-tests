@@ -1,0 +1,7 @@
+LCG Formula:
+let X0 = initial seed
+let a = multiplier
+let m = modulo
+let c = increment 
+
+Xi+1 = (aXi + c) % m
