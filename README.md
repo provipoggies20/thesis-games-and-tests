@@ -1,4 +1,6 @@
 # thesis-games-and-tests
+*Some files are missing because of file upload limit. Sorry for this inconvenience. Please reach out to me so I can send you the full files.
+
 Contents of our Final Thesis as a Game Developer. A various games and tests particularly to compare RNGs. 
 So the overall focus of our thesis is to compare, differentiate, and understand the two (2) types of RNGs in C++; we picked Pseudo's rand() and Uniform's unifom_int_dist().
 
